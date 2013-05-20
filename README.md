@@ -14,7 +14,7 @@ My solutions to the problems posed by Project Euler are contained within this re
 
 To track my progress on Project Euler, login to Project Euler [here](http://projecteuler.net/login), and add me as a new friend by entering my friend key (shown below) on the [Friends](http://projecteuler.net/friends) page of Project Euler. I am registered on Project Euler with the following details
 
-Username: neilos
-Full name: Neil Atkinson
-My Friend Key: 32291711479272_c53dec5458d523edf569cca7619ab83f
+Username: neilos  
+Full name: Neil Atkinson  
+My Friend Key: 32291711479272_c53dec5458d523edf569cca7619ab83f  
 
