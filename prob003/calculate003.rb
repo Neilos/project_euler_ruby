@@ -4,20 +4,23 @@ class Calculate
     return 1 if n ==1
     prime_factors = []
     divisor = 2
-    cap = n
-    while cap > 1
-      if n % divisor == 0
-        prime_factors << divisor  # smallest factor will necessarily be prime, 
-                                  # rest of algorithm (i.e. use of cap and incrementing divisor) ensures that 
-                                  # next factor is also prime and larger than the previous
+    while (n >= 1)
 
-        cap = cap / divisor     # 'cap / divisor' could also be prime 
-                                # but there cannot be primes higher than this
-                                # because there is only one 'prime signature'
-                                # for any one number and if 'cap / divisor'
-                                # is prime then there would only two prime factors.
+      while n % divisor == 0
+        prime_factors << divisor if !prime_factors.include? divisor
+        # smallest factor will necessarily be prime, 
+        # rest of algorithm (i.e. use of n and incrementing divisor) ensures that
+
+        n = n / divisor     # Divide out all the divisors
+        puts "divisor: #{divisor}"
       end
+      # next factor found will also prime
+      # because it cannot be a multiple of any
+      # previous primes because of the division loop above
+      # and larger than the previous
+
       divisor = divisor + 1     # increment divisor  
+      break if divisor > n
     end
 
     puts "prime_factors: #{prime_factors}"
