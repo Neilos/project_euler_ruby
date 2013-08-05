@@ -7,7 +7,6 @@ About Project Euler
 
 Me and Project Euler
 --------------------
-
 While learning the Ruby programming language I am using the problems posed on Project Euler to hone my skills as a software developer and Rubyist.
 
 My solutions to the problems posed by Project Euler are contained within this repository. Each problem is contained in its own directory which contains a README file outlining the problem, class files, an executable (name preceded with exec) and test files.
@@ -17,4 +16,8 @@ To track my progress on Project Euler, login to Project Euler [here](http://proj
 Username: neilos  
 Full name: Neil Atkinson  
 My Friend Key: 32291711479272_c53dec5458d523edf569cca7619ab83f  
+
+Running the Code
+----------------
+A test file accompanies each code solution. Problems 1 to 16 are tested using Minitest. Thereafter problems are tested with Rspec.
 
